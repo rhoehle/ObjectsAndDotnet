@@ -25,11 +25,11 @@ namespace DemoArrayList
                 {
                     sum += Convert.ToDouble(itemInArray);
                 }
-                else if(itemInArray is double)
+                else if (itemInArray is double)
                 {
                     sum += (double)itemInArray;
                 }
-                else if(itemInArray is string)
+                else if (itemInArray is string)
                 {
                     Console.WriteLine(itemInArray);
                 }
