@@ -25,9 +25,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LambdaExpressions", "..\Lam
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Events", "..\Events\Events.csproj", "{3C3077C3-C526-4B6C-8F85-80C1136F7FB5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Linq", "..\Linq\Linq.csproj", "{9DF810A1-364A-4FAA-BE23-920C7CAAD29E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Linq", "..\Linq\Linq.csproj", "{9DF810A1-364A-4FAA-BE23-920C7CAAD29E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqObjects", "..\LinqObjects\LinqObjects.csproj", "{FDF491CD-1051-4714-B342-936B98499BA9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinqObjects", "..\LinqObjects\LinqObjects.csproj", "{FDF491CD-1051-4714-B342-936B98499BA9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqWithSQL", "..\LinqWithSQL\LinqWithSQL.csproj", "{8DC2BFA6-6191-41BE-936B-DD900274AC11}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,6 +89,10 @@ Global
 		{FDF491CD-1051-4714-B342-936B98499BA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FDF491CD-1051-4714-B342-936B98499BA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FDF491CD-1051-4714-B342-936B98499BA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DC2BFA6-6191-41BE-936B-DD900274AC11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DC2BFA6-6191-41BE-936B-DD900274AC11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DC2BFA6-6191-41BE-936B-DD900274AC11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DC2BFA6-6191-41BE-936B-DD900274AC11}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

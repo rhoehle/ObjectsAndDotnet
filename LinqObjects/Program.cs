@@ -11,6 +11,9 @@ namespace LinqObjects
             um.MaleStudents();
             Console.WriteLine();
             um.FemaleUnder22();
+            Console.WriteLine();
+
+            um.StudentAndUniversityNameCollection();
 
             Console.ReadKey();
         }
